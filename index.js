@@ -16,7 +16,7 @@ fetchAnime().then((re) => {
   data = [...re];
   data.sort((a, b) => b.score - a.score);
   // Home Page
-  if (newPathname == 'home.html') {
+  if (newPathname == 'index.html') {
     onclickSearch();
     var detail = document.querySelector('.button');
     var subtext = document.querySelector('.sub-text');
