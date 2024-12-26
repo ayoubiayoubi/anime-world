@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحة تسجيل الدخول</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>تسجيل الدخول</h2>
+      <form action="/login" method="POST">
+        <div class="form-group">
+          <label for="username">User Name :</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password :</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit">Login</button>
+      </form>
+      <p>
+        ليس لديك حساب؟
+        <a href="registration.html">سجل الآن</a>
+      </p>
+    </div>
+  </body>
+</html>
